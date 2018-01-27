@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-md-2"></div>            
+    <div id="content" class="col-sm-12 col-md-8">
+<div class="row">
+    <div class="col-md-2"></div>            
+    <div class="col-sm-12 col-md-8">
+        <div class="panel panel-primary">
+            <div class="panel-heading"><h2 id="title" class="text-center">LAS BUENAS NOTICIAS</h2></div>
+            <div class="panel-body">
+                <img id="image" src="/images/goodnews.png" alt="title" class="img-thumbnail center-block hidden">
+                <p id="summary">UNA RED BUENA DE NOTICIAS ES UN BUEN ANTIODOAPAR DETENER LA BARRERA DE NEGATIVIDAD QUE SE ESTA EXPERIMENTANDO ACTUALMENTE.</p>
+				<p id="readArticle" class= "hidden"><a href="" id="article" target="_blank"><button class="btn btn-primary">LEER EL ARTICULO</button></a></p>
+                <p><button id="getArticles" class="btn btn-primary">LEER ARTICULOS</button></p>
+                <div id="comments">   
+               	    <h3 class="text-center text-primary">COMENTARIOS</h3>
+                	<div id="articleComments">                		
+                	</div>	
+                    <h3 class="text-center text-primary">AGREGAR UN COMENTARIO</h3>
+                    <div class="form-group">
+                        <label for="name">NOMBRE:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                          <label for="commentText">COMENTARIO:</label>
+                          <textarea class="form-control" rows="5" id="commentText"></textarea>
+                    </div>
+                    {{!-- <p><textarea id="commentText" rows="5" placeholder=" Your Comment"></textarea></p> --}}
+                    <button id="addComment" class="btn btn-primary btn-xs">AGREGAR UN COMENTARIO</button>
+                </div>    
+            </div>
+            <div class="panel-footer">
+            	<div id="navigation">
+                </div>        
+            </div>
+        </div>
+    </div>            
+    <div class="col-md-2"></div>
+</div>
