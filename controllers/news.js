@@ -67,17 +67,17 @@ router.get('/scrape', function(req, res){
 				summary: summary
 			});	
 			// Check database to see if story saved previously to database
-			Articles.findOne({'title': title}, function(err, articleRecord) {
+			Articles.findOne({'Titulo': title}, function(err, articleRecord) {
 				if(err) {
 					console.log(err);
 				} else {
 					if(articleRecord == null) {
 						Articles.create(result[i], function(err, record) {
 							if(err) throw err;
-							console.log("Record Added");
+							console.log("Se Agrego un Record");
 						});
 					} else {
-						console.log("No Record Added");
+						console.log("No se Agrego un Record");
 					}					
 				}
 			});	
@@ -115,7 +115,7 @@ router.post('/addcomment/:id', function(req, res){
 		if(err){
 			console.log(err);			
 		} else {
-			console.log("New Comment Added");
+			console.log("Se Agrego un Comentario");
 		}
 	});
 });
@@ -127,7 +127,7 @@ router.get('/deletecomment/:id', function(req, res){
 		if(err){
 			console.log(err);
 		} else {
-			console.log("Comment deleted");
+			console.log("Comentario Eliminado");
 		}
 	})
 });

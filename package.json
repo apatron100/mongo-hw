@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/armthepit/allthenews.git"
+    "url": "git+https://github.com/apatron100/mongo-hw.git"
   },
-  "author": "John Nowinsky",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/armthepit/allthenews/issues"
+    "url": "https://github.com/apatron100/mongo-hw/issues"
   },
-  "homepage": "https://github.com/armthepit/allthenews#readme",
+  "homepage": "https://github.com/apatron100/mongo-hw#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
@@ -26,8 +26,7 @@
     "mongoose": "^4.13.9",
     "morgan": "^1.7.0",
     "path": "^0.12.7",
-    "request": "^2.79.0",
-    "routes": "^2.1.0"
+    "request": "^2.79.0"
   },
   "devDependencies": {}
 }

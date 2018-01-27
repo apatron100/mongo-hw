@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 	$('#comments').addClass('hidden');
 
-	// Scrape website on initial page load
+	// Scrape website
 	$.getJSON('/scrape', function(){
 	});
 

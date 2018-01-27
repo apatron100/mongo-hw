@@ -1,10 +1,15 @@
+// Web Scraper Homework Solution Example
+// (be sure to watch the video to see
+// how to operate the site in the browser)
+// -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
 // Require our dependencies
 var express = require("express");
 var mongoose = require("mongoose");
 var path = require ('path')
-var exphbs = require("express-handlebars");
 var bodyParser = require("body-parser");
 var logger = require ('morgan')
+
 // Instantiate our Express App
 var app = express();
 
@@ -44,7 +49,7 @@ app.use(function(req, res) {
 
 //Port
 app.listen(port, function() {
-    console.log("Listening on port:" + port);
+    console.log("Listening on port #:" + port);
 });
 
  
