@@ -12,21 +12,21 @@
     "url": "git+https://github.com/apatron100/mongo-hw.git"
   },
   "author": "",
-  "license": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/apatron100/mongo-hw/issues"
   },
   "homepage": "https://github.com/apatron100/mongo-hw#readme",
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "body-parser": "^1.15.2",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
     "cheerio": "^0.22.0",
-    "express": "^4.14.0",
+    "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "mongoose": "^4.13.9",
-    "morgan": "^1.7.0",
+    "morgan": "^1.9.0",
     "path": "^0.12.7",
-    "request": "^2.79.0"
+    "request": "^2.83.0"
   },
   "devDependencies": {}
 }
